@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LetItGo - Give Your Unused Things a New Life</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">LetItGo</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#benefits">About</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="auth-buttons">
+        <div class="search-container">
+            <button id="search-btn"><i class="fa fa-search"></i></button>
+            <input type="text" id="search-input" placeholder="Search items..." />
+        </div>
+        <button class="signin">Sign In</button>
+        <button class="signup">Sign Up</button>
+    </div>
+  </header>
+
+  <!-- SECTIONS -->
+  <section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Welcome to LetItGo</h1>
+    <p>Find a new home for the things you no longer need.</p>
+  </div>
+  </section>
+
+  <section id="categories" class="categories">
+  <h2>Browse by Category</h2>
+  <div class="category-grid">
+    <div class="card" data-aos="fade-up">
+      <img src="https://imgs.search.brave.com/eUTDtxAu9enhfpzkaL7Ql1bkLKJIdmc2PWT9SYJgbVY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAyLzc1LzM3LzUz/LzM2MF9GXzI3NTM3/NTM0Nl9hZlNyU3NE/WTFtWUZ2enhaTW1W/WWZFVlZraTRXSjJ4/ay5qcGc" alt="Electronics" />
+      <h3>Electronics</h3>
+    </div>
+    <div class="card" data-aos="fade-up">
+      <img src="https://imgs.search.brave.com/hf5I62po85ZCYVHeg85tciyydDnFEBz9FohH-xs-ze4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by90b3Atdmlldy1j/cmFmdC1wYXBlci1i/YWctd2l0aC1zaGly/dF8yNjA2NzItMjI3/NzAuanBnP3NlbXQ9/YWlzX2h5YnJpZCZ3/PTc0MCZxPTgw" alt="Clothes" />
+      <h3>Clothes</h3>
+    </div>
+    <div class="card" data-aos="fade-up">
+      <img src="https://imgs.search.brave.com/FmafvUEZQKUJdGkagNwBEsILOAhyJ7OfLY1LI2wIoFQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQx/MTcyNzQ0NS9waG90/by9jaGlwYm9hcmQt/ZnVybml0dXJlLXBp/ZWNlcy5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9MEZtOXN6/bEtQUGg1SmNDSE5S/cjV0Qm9xVENhUE80/UTJzbW1hNHVDd1l4/ST0" alt="Furniture" />
+      <h3>Furniture</h3>
+    </div>
+    <div class="card" data-aos="fade-up">
+      <img src="https://imgs.search.brave.com/mO0puRoWc15MaJGiLXPcL-VoIOKjgY2vxIEz1UL_nIE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS1w/aG90by9yb3ctdmFy/aW91cy1jYXJzLXBh/cmtlZC1vdXRkb29y/cy02MDBudy0yNjU2/MTA3NzY5LmpwZw" alt="Vehicles" />
+      <h3>Vehicles</h3>
+    </div>
+    <div class="card" data-aos="fade-up">
+      <img src="https://imgs.search.brave.com/SI2Fo0HwrAQeKKYyj2lv8K30CjoQZJRaF_zTmaOu_k4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93MC5w/ZWFrcHguY29tL3dh/bGxwYXBlci82OTUv/NjM1L0hELXdhbGxw/YXBlci1ib29rcy1k/YXJrLXNoZWxmLWxp/YnJhcnktdGh1bWJu/YWlsLmpwZw" alt="Books" />
+      <h3>Books</h3>
+    </div>
+  </div>
+</section>
+
+  <section id="benefits" class="benefits">
+    <div class="benefit" data-aos="fade-right">
+      <div class="text animate-text">
+        <h3>Declutter Your Space</h3>
+        <p>Have items you no longer use lying around? LetItGo helps you turn clutter into opportunity. 
+        Instead of letting your unused possessions gather dust, you can quickly upload them for others who truly need them. 
+        Freeing up space not only makes your home cleaner and more organized, but also gives you a sense of relief and freshness. 
+        It’s an effortless way to simplify your life while helping others at the same time.</p>
+      </div>
+      <img src="https://imgs.search.brave.com/XfkkrBsJq2CNy9dLPMRJy8p5gMsxZrTOoUhND2GQQFo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM4/NzI4ODgzMi9waG90/by9jYXJkYm9hcmQt/Ym94ZXMtd2l0aC10/b3lzLXByZXBhcmVk/LWZvci1kb25hdGlv/bi5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9RTRXLWZRU19u/bG9Fd1V2TzlDSGVw/c19PMzZFdGZxM2Rm/TVRGRHFSMExDcz0" alt="Declutter">
+    </div>
+
+    <div class="benefit reverse" data-aos="fade-left">
+      <img src="https://imgs.search.brave.com/sOCdE2HaP5uxriGgytQ1Tlz3a1Xmn49s5fGz9zdlNpo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ0/OTcxMzI5NC9waG90/by9yZWFsLWVzdGF0/ZS1hZ2VudC1tZWV0/aW5nLXByb3NwZWN0/aXZlLWJ1eWVycy5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/WlZXSnBjcGtIckRZ/b1ByNk1QQW1ueE02/UXUwRDVhakJKbTkt/WWgxbHgyZz0" alt="Reach buyers">
+      <div class="text animate-text">
+        <h3>Reach Buyers Instantly</h3>
+        <p>No more waiting weeks to find a buyer — with LetItGo, your items are visible to thousands of people in seconds. 
+        Our platform connects you directly to a community of buyers who are actively searching for second-hand goods. 
+        You can chat, negotiate, and finalize deals all in one place. 
+        Whether it’s electronics, furniture, or clothing, reaching the right audience has never been this simple.</p>
+      </div>
+    </div>
+
+    <div class="benefit" data-aos="fade-right">
+      <div class="text animate-text">
+        <h3>Safe & Secure Transactions</h3>
+        <p>Safety is our top priority. Every transaction on LetItGo is protected with secure communication and verified profiles, 
+        ensuring both buyers and sellers can trade with confidence. 
+        We actively monitor listings to prevent scams and suspicious activity. 
+        Our platform is built to give you peace of mind — because your trust matters most to us.</p>
+      </div>
+      <img src="https://imgs.search.brave.com/oBP7yJDNo-2PRbRbhMCeOTomG-AQ_nDULjkXA8ai1dA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzE1LzYzLzYxLzQ5/LzM2MF9GXzE1NjM2/MTQ5MjlfbGRFNzh6/N2FiM3lZUEs4V3N0/ekFDa1d6SDdzeGpH/SDcuanBn" alt="Secure">
+    </div>
+  </section>
+
+  <section id="reviews" class="reviews-section">
+  <h2 class="section-title">What Our Users Say</h2>
+  <div class="reviews-container">
+    <div class="review-card" data-aos="zoom-in">
+      <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="User photo" class="reviewer-photo">
+      <h3>Samantha Potts</h3>
+      <p class="user-role">Los Angeles, USA</p>
+      <p class="review-text">
+        LetItGo made decluttering so easy! I sold my old furniture within days. The process was simple,
+        and I even met some lovely buyers. Highly recommend it to anyone looking to free up space and earn extra cash!
+      </p>
+    </div>
+
+    <div class="review-card" data-aos="zoom-in" data-aos-delay="200">
+      <img src="https://randomuser.me/api/portraits/men/74.jpg" alt="User photo" class="reviewer-photo">
+      <h3>John Carter</h3>
+      <p class="user-role">Austin, USA</p>
+      <p class="review-text">
+        I was surprised by how seamless everything felt. Uploading items took minutes,
+        and customer support was super responsive. LetItGo turned my clutter into something valuable.
+      </p>
+    </div>
+
+    <div class="review-card" data-aos="zoom-in" data-aos-delay="400">
+      <img src="https://randomuser.me/api/portraits/women/56.jpg" alt="User photo" class="reviewer-photo">
+      <h3>Sarah Williams</h3>
+      <p class="user-role">London, UK</p>
+      <p class="review-text">
+        This platform is amazing! I love how user-friendly it is, and it’s great knowing
+        my items are going to people who truly need them. I’ll definitely keep using LetItGo!
+      </p>
+    </div>
+  </div>
+</section>
+
+
+  <section id="delivery" class="delivery-section">
+  <h2 class="section-title">We Deliver To</h2>
+  <div class="delivery-container">
+    <div class="country-card">
+      <img src="https://flagcdn.com/w320/in.png" alt="India Flag">
+      <h3>India</h3>
+    </div>
+    <div class="country-card">
+      <img src="https://flagcdn.com/w320/us.png" alt="USA Flag">
+      <h3>United States</h3>
+    </div>
+    <div class="country-card">
+      <img src="https://flagcdn.com/w320/gb.png" alt="UK Flag">
+      <h3>United Kingdom</h3>
+    </div>
+    <div class="country-card">
+      <img src="https://flagcdn.com/w320/au.png" alt="Australia Flag">
+      <h3>Australia</h3>
+    </div>
+    <div class="country-card">
+      <img src="https://flagcdn.com/w320/ca.png" alt="Canada Flag">
+      <h3>Canada</h3>
+    </div>
+  </div>
+  </section>
+
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 +91 12345 67890</p>
+    <p>📧 contact@letitgo.com</p>
+    <p>📍 123, LetItGo Street, New Delhi, India</p>
+  </section>
+
+  <footer>
+    <p>© 2025 LetItGo. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
