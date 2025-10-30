@@ -12,7 +12,7 @@
 
   <!-- HEADER -->
   <header>
-    <div class="logo">LetItGo</div>
+    <div class="logo" id="logo">LetItGo</div>
     <nav>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
@@ -27,8 +27,8 @@
             <button id="search-btn"><i class="fa fa-search"></i></button>
             <input type="text" id="search-input" placeholder="Search items..." />
         </div>
-        <button class="signin">Sign In</button>
-        <button class="signup">Sign Up</button>
+        <button class="signin" id="signin-btn">Sign In</button>
+        <button class="signup" id="signup-btn">Sign Up</button>
     </div>
   </header>
 
@@ -43,23 +43,23 @@
   <section id="categories" class="categories">
   <h2>Browse by Category</h2>
   <div class="category-grid">
-    <div class="card" data-aos="fade-up">
+    <div class="card" data-aos="fade-up" data-category="electronics">
       <img src="https://imgs.search.brave.com/eUTDtxAu9enhfpzkaL7Ql1bkLKJIdmc2PWT9SYJgbVY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAyLzc1LzM3LzUz/LzM2MF9GXzI3NTM3/NTM0Nl9hZlNyU3NE/WTFtWUZ2enhaTW1W/WWZFVlZraTRXSjJ4/ay5qcGc" alt="Electronics" />
       <h3>Electronics</h3>
     </div>
-    <div class="card" data-aos="fade-up">
+    <div class="card" data-aos="fade-up" data-category="clothes">
       <img src="https://imgs.search.brave.com/hf5I62po85ZCYVHeg85tciyydDnFEBz9FohH-xs-ze4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by90b3Atdmlldy1j/cmFmdC1wYXBlci1i/YWctd2l0aC1zaGly/dF8yNjA2NzItMjI3/NzAuanBnP3NlbXQ9/YWlzX2h5YnJpZCZ3/PTc0MCZxPTgw" alt="Clothes" />
       <h3>Clothes</h3>
     </div>
-    <div class="card" data-aos="fade-up">
+    <div class="card" data-aos="fade-up" data-category="furniture">
       <img src="https://imgs.search.brave.com/FmafvUEZQKUJdGkagNwBEsILOAhyJ7OfLY1LI2wIoFQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQx/MTcyNzQ0NS9waG90/by9jaGlwYm9hcmQt/ZnVybml0dXJlLXBp/ZWNlcy5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9MEZtOXN6/bEtQUGg1SmNDSE5S/cjV0Qm9xVENhUE80/UTJzbW1hNHVDd1l4/ST0" alt="Furniture" />
       <h3>Furniture</h3>
     </div>
-    <div class="card" data-aos="fade-up">
+    <div class="card" data-aos="fade-up" data-category="vehicles">
       <img src="https://imgs.search.brave.com/mO0puRoWc15MaJGiLXPcL-VoIOKjgY2vxIEz1UL_nIE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS1w/aG90by9yb3ctdmFy/aW91cy1jYXJzLXBh/cmtlZC1vdXRkb29y/cy02MDBudy0yNjU2/MTA3NzY5LmpwZw" alt="Vehicles" />
       <h3>Vehicles</h3>
     </div>
-    <div class="card" data-aos="fade-up">
+    <div class="card" data-aos="fade-up" data-category="books">
       <img src="https://imgs.search.brave.com/SI2Fo0HwrAQeKKYyj2lv8K30CjoQZJRaF_zTmaOu_k4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93MC5w/ZWFrcHguY29tL3dh/bGxwYXBlci82OTUv/NjM1L0hELXdhbGxw/YXBlci1ib29rcy1k/YXJrLXNoZWxmLWxp/YnJhcnktdGh1bWJu/YWlsLmpwZw" alt="Books" />
       <h3>Books</h3>
     </div>
